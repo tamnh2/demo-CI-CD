@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_demo_CI_CD_1690884168055-push-trigger-input-set
+  identifier: Build_demo_CI_CD_1690884168055pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_demo_CI_CD_1690884168055
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
